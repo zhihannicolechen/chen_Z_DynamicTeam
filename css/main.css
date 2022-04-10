@@ -7,12 +7,18 @@
   display: none;
 }
 
+h3
+{
+  font-size: 30px;
+  font-family: 'Anek Tamil', sans-serif;
+}
+
 body
 {
   background-image: url("../images/heroImg.jpg");
   background-size: cover;
   background-attachment: fixed;
-
+  font-family: 'Anek Tamil', sans-serif;
 }
 
 .content
@@ -32,6 +38,12 @@ p
 
 /* _______________ general end ____________*/
 /* _______________ images list ____________*/
+
+.logo
+{
+  width: 10%;
+}
+
 .imageList
 {
   display: flex;
@@ -81,7 +93,18 @@ p
   background-color: #052146;
   color: white;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px 45px;
+  text-align: center;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.text2
+{
+  background-color: #052146;
+  color: white;
+  font-size: 16px;
+  padding: 10px 45px;
   text-align: center;
   border-radius: 40px;
   margin: 10px;
