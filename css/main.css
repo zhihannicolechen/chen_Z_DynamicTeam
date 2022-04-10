@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* _______________ general _______________*/
+
+.hidden
+{
+  display: none;
+}
+
+body
+{
+  background-image: url("../images/heroImg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.content
+{
+  background: white;
+  width: 50%;
+  padding: 40px;
+  margin: 70px auto;
+  border-radius: 20px;
+}
+
+p
+{
+  font-size: 25px;
+  color: black;
+}
+
+/* _______________ general end ____________*/
+/* _______________ images list ____________*/
+.imageList
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.images
+{
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.images:hover .photo
+{
+  opacity: 0.3;
+}
+
+.images:hover .middleDisplay
+{
+  opacity: 1;
+}
+
+.imageList img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.photo
+{
+
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.middleDisplay
+{
+  transition: .5s ease;
+  opacity: 0;
+  position: flex;
+}
+
+.text
+{
+  background-color: #052146;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+/* _______________list end ____________*/
